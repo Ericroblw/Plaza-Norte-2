@@ -1,0 +1,206 @@
+[
+    {
+      "nombre": "Zara",
+      "categoria": "Moda",
+      "ubicacion": "Planta 1,Planta 2"
+    },
+    {
+        "nombre":"H&M",
+        "categoria":"Moda",
+        "ubicacion":"Planta 1,Planta 2"
+    },
+    {
+        "nombre":"LEVI´S",
+        "categoria":"Moda",
+        "ubicacion":"Planta 2"
+    },
+    {
+      "nombre": "SCALPERS",
+      "categoria": "Moda",
+      "ubicacion": "Planta 1"
+    },
+    {
+      "nombre": "PULL&BEAR",
+      "categoria": "Moda",
+      "ubicacion": "Planta 1"
+    },
+    {
+        "nombre": "BERSHKA",
+        "categoria": "Moda",
+        "ubicacion": "Planta 1"
+      },
+
+
+      {
+        "nombre": "BURGUER KING",
+        "categoria": "Restaurantes",
+        "ubicacion": "Planta 1"
+      },
+      {
+        "nombre": "CERVECERÍA 100 MONTADITOS",
+        "categoria": "Restaurantes",
+        "ubicacion": "Planta 1"
+      },
+      {
+        "nombre": "DUNKIN COFFEE",
+        "categoria": "Restaurantes",
+        "ubicacion": "Planta 1"
+      },
+      {
+        "nombre": "GINOS",
+        "categoria": "Restaurantes",
+        "ubicacion": "Planta 1"
+      },
+      {
+        "nombre": "GOIKO",
+        "categoria": "Restaurantes",
+        "ubicacion": "Planta 2"
+      },
+      {
+        "nombre": "HÄAGEN-DAZS",
+        "categoria": "Restaurantes",
+        "ubicacion": "Planta 1"
+      },
+      {
+        "nombre": "LA TAGLIATELLA",
+        "categoria": "Restaurantes",
+        "ubicacion": "Planta 2"
+      },
+      {
+        "nombre": "LLAOLLAO",
+        "categoria": "Restaurantes",
+        "ubicacion": "Planta 2"
+      },
+      {
+        "nombre": "McDonald'S",
+        "categoria": "Restaurantes",
+        "ubicacion": "Planta 2"
+      },
+      {
+        "nombre": "RODILLA",
+        "categoria": "Restaurantes",
+        "ubicacion": "Planta 1"
+      },
+      {
+        "nombre": "STARBUCKS",
+        "categoria": "Restaurantes",
+        "ubicacion": "Planta 2"
+      },
+      {
+        "nombre": "TACO BELL",
+        "categoria": "Restaurantes",
+        "ubicacion": "Planta 2"
+      },
+      {
+        "nombre": "VIPS",
+        "categoria": "Restaurantes",
+        "ubicacion": "Planta 2"
+      },
+
+
+      {
+        "nombre": "PANDORA",
+        "categoria": "Joyeria",
+        "ubicacion": "Planta 1"
+      },
+      {
+        "nombre": "BIJOU BRIGITTE",
+        "categoria": "Joyeria",
+        "ubicacion": "Planta 1"
+      },
+      {
+        "nombre": "TIME ROAD",
+        "categoria": "Joyeria",
+        "ubicacion": "Planta 2"
+      },
+      {
+        "nombre": "ADIDAS",
+        "categoria": "Deportes",
+        "ubicacion": "Planta 2"
+      },
+      {
+        "nombre": "JD",
+        "categoria": "Deportes",
+        "ubicacion": "Planta 2"
+      },
+      {
+        "nombre": "SNIPES",
+        "categoria": "Deportes",
+        "ubicacion": "Planta 1"
+      },
+      {
+        "nombre": "FOOT LOCKER",
+        "categoria": "Joyeria",
+        "ubicacion": "Planta 1"
+      },
+
+
+      {
+        "nombre": "FNAC",
+        "categoria": "Tecnologia",
+        "ubicacion": "Planta 2"
+      },
+      {
+        "nombre": "GAME",
+        "categoria": "Tecnologia",
+        "ubicacion": "Planta 1"
+      },
+      {
+        "nombre": "VODAFONE",
+        "categoria": "Tecnologia",
+        "ubicacion": "Planta 1"
+      },
+
+
+      {
+        "nombre": "KIKO",
+        "categoria": "Belleza",
+        "ubicacion": "Planta 1"
+      },
+      {
+        "nombre": "SEPHORA",
+        "categoria": "Belleza",
+        "ubicacion": "Planta 1"
+      },
+      {
+        "nombre": "PRIMOR",
+        "categoria": "Belleza",
+        "ubicacion": "Planta 2"
+      },
+      {
+        "nombre": "DRUNI",
+        "categoria": "Belleza",
+        "ubicacion": "Planta 1"
+      },
+      {
+        "nombre": "Sinners",
+        "categoria": "Cine",
+        "ubicacion": "Planta 1,Planta 2"
+      },
+      {
+        "nombre": "Until Dawn",
+        "categoria": "Cine",
+        "ubicacion": "Planta 1,Planta 2"
+      },
+      {
+        "nombre": "Una película de Minecraft",
+        "categoria": "Cine",
+        "ubicacion": "Planta 1,Planta 2"
+      },
+      {
+        "nombre": "Cónclave",
+        "categoria": "Cine",
+        "ubicacion": "Planta 1,Planta 2"
+      },
+      {
+        "nombre": "Sinners",
+        "categoria": "Cine",
+        "ubicacion": "Planta 1,Planta 2"
+      }
+
+
+
+      
+    
+  ]
+  
