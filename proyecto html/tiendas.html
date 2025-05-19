@@ -8,24 +8,67 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
     <title>Tiendas</title>
     <link rel="stylesheet" href="Imagenes/logoPlaza.jpg">
+    <style>
+        .col{
+            margin-bottom: 60px;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+    <header class="text-center">
         <img src="Imagenes/logoPlaza.jpg" alt="logoPlaza">
     </header>
 
 
     <article class="container">
-        <h1>TIENDAS</h1>
 
         <!-- Button to Open the Modal -->
 
-        <img src="Imagenes/zara.jpg" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tienda1">
+        <section class="row">
+            <div class="col">
+                <img src="Imagenes/zara.jpg" class="img-fluid rounded" data-bs-toggle="modal"
+                    data-bs-target="#tienda1" style="cursor: pointer;">
+            </div>
 
-        <!-- The Modal -->
+            <div class="col">
+                <img src="Imagenes/H&M.jpg" class="img-fluid rounded shadow" class="btn btn-primary"
+                    data-bs-toggle="modal" data-bs-target="#tienda2" style="cursor: pointer;">
+
+            </div>
+
+            <div class="col">
+                <img src="Imagenes/pull&bear" class="img-fluid rounded shadow" class="btn btn-primary"
+                    data-bs-toggle="modal" data-bs-target="#tienda3" style="cursor: pointer;">
+            </div>
+
+
+
+        </section>
+
+
+        <section class="row">
+            <div class="col">
+                <img src="Imagenes/footLocker" class="img-fluid rounded shadow" data-bs-toggle="modal" data-bs-target="#tienda4" style="cursor: pointer;">
+            </div>
+
+            <div class="col">
+                <img src="Imagenes/adidas" class="img-fluid rounded shadow"  data-bs-toggle="modal" data-bs-target="#tienda5" style="cursor: pointer;">
+
+            </div>
+
+            <div class="col">
+                <img src="Imagenes/fnac" class="img-fluid rounded shadow"  data-bs-toggle="modal" data-bs-target="#tienda6" style="cursor: pointer;">
+            </div>
+
+
+
+        </section>
+
+
+        <!--  Modal ZARA -->
         <div class="modal" id="tienda1">
-            <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-dialog modal-sm modal-dialog-centered modal-lg">
                 <div class="modal-content">
 
                     <!-- Modal Header -->
@@ -36,6 +79,7 @@
 
                     <!-- Modal body -->
                     <div class="modal-body">
+                        <img src="Imagenes/TiendaZara.webp" controls width="100%" alt="">
                         <p> <b>Zara</b> es una de las marcas de moda más reconocidas a nivel mundial, conocida por sus
                             colecciones
                             modernas,
@@ -47,7 +91,7 @@
                     </div>
 
                     <!-- Modal footer -->
-                     <div class="modal-footer">
+                    <div class="modal-footer">
                         <button>
                             <a href="https://www.zara.com/es/">Visítanos</a>
                         </button>
@@ -60,11 +104,10 @@
 
         <!-- Button to Open the Modal -->
 
-        <img src="Imagenes/H&M.jpg" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tienda2">
 
-        <!-- The Modal -->
+        <!--  Modal H&M -->
         <div class="modal" id="tienda2">
-            <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-dialog modal-sm modal-dialog-centered modal-lg">
                 <div class="modal-content">
 
                     <!-- Modal Header -->
@@ -75,7 +118,7 @@
 
                     <!-- Modal body -->
                     <div class="modal-body">
-                        <img src="" alt="">
+                        <img src="Imagenes/TiendaH&M.png" controls width="100%" alt="">
                         <p> <b>H&M</b> es una marca de moda internacional que combina estilo, calidad y precios
                             accesibles. Ofrece
                             ropa,
@@ -89,7 +132,8 @@
                     <!-- Modal footer -->
                     <div class="modal-footer">
                         <button>
-                            <a href="https://www2.hm.com/es_es/index.html?srsltid=AfmBOooRffEuUTJKGgjJKag1PYCDZeYBghO-WGl5HvdMkJg7ibtyKCz8">Visítanos</a>
+                            <a
+                                href="https://www2.hm.com/es_es/index.html?srsltid=AfmBOooRffEuUTJKGgjJKag1PYCDZeYBghO-WGl5HvdMkJg7ibtyKCz8">Visítanos</a>
                         </button>
                     </div>
 
@@ -100,11 +144,10 @@
 
         <!-- Button to Open the Modal -->
 
-        <img src="Imagenes/pull&bear" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tienda3">
 
-        <!-- The Modal -->
+        <!--  Modal PULL&BEAR -->
         <div class="modal" id="tienda3">
-            <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-dialog modal-sm modal-dialog-centered modal-lg">
                 <div class="modal-content">
 
                     <!-- Modal Header -->
@@ -115,6 +158,7 @@
 
                     <!-- Modal body -->
                     <div class="modal-body">
+                        <img src="Imagenes/TiendaPullYBear.jpg" controls width="100%" alt="">
                         <p> <b>Pull&Bear</b> es una marca de moda juvenil que combina comodidad, estilo casual y las
                             últimas
                             tendencias
@@ -124,7 +168,7 @@
                     </div>
 
                     <!-- Modal footer -->
-                     <div class="modal-footer">
+                    <div class="modal-footer">
                         <button>
                             <a href="https://www.pullandbear.com/es/hombre-n6228">Visítanos</a>
                         </button>
@@ -136,11 +180,10 @@
 
         <!-- Button to Open the Modal -->
 
-        <img src="Imagenes/footLocker" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tienda4">
 
-        <!-- The Modal -->
+        <!--  Modal FOOT LOCKER -->
         <div class="modal" id="tienda4">
-            <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-dialog modal-sm modal-dialog-centered modal-lg">
                 <div class="modal-content">
 
                     <!-- Modal Header -->
@@ -151,6 +194,7 @@
 
                     <!-- Modal body -->
                     <div class="modal-body">
+                        <img src="Imagenes/TiendaFootLocker.jpg" controls width="100%" alt="">
                         <p> <b>Foot Locker</b> es una tienda líder en calzado deportivo y ropa urbana, conocida por su
                             amplia
                             selección
@@ -165,7 +209,7 @@
                     </div>
 
                     <!-- Modal footer -->
-                   <div class="modal-footer">
+                    <div class="modal-footer">
                         <button>
                             <a href="https://www.footlocker.es/">Visítanos</a>
                         </button>
@@ -177,11 +221,10 @@
 
         <!-- Button to Open the Modal -->
 
-        <img src="Imagenes/adidas" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tienda5">
 
-        <!-- The Modal -->
+        <!--  Modal ADIDAS -->
         <div class="modal" id="tienda5">
-            <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-dialog modal-sm modal-dialog-centered modal-lg">
                 <div class="modal-content">
 
                     <!-- Modal Header -->
@@ -192,6 +235,7 @@
 
                     <!-- Modal body -->
                     <div class="modal-body">
+                        <img src="Imagenes/TiendaAdidas.jpg" controls width="100%" alt="">
                         <p> <b>Adidas</b> es una marca líder en ropa deportiva y calzado, conocida por su innovación,
                             confort y
                             estilo.
@@ -215,11 +259,10 @@
 
         <!-- Button to Open the Modal -->
 
-        <img src="Imagenes/fnac" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tienda6">
 
-        <!-- The Modal -->
+        <!--  Modal FNAC -->
         <div class="modal" id="tienda6">
-            <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-dialog modal-sm modal-dialog-centered modal-lg">
                 <div class="modal-content">
 
                     <!-- Modal Header -->
@@ -230,6 +273,7 @@
 
                     <!-- Modal body -->
                     <div class="modal-body">
+                        <img src="Imagenes/TiendaFnac.webp" controls width="100%" alt="">
                         <p> <b>FNAC</b> es una tienda especializada en tecnología, electrónica, cultura y
                             entretenimiento. Ofrece
                             una
@@ -244,9 +288,10 @@
                     </div>
 
                     <!-- Modal footer -->
-                     <div class="modal-footer">
+                    <div class="modal-footer">
                         <button>
-                            <a href="https://www.fnac.es/?origin=SEA_GOOG_SEA_BRAND&gad_source=1&gbraid=0AAAAAD8T49WYw8gxSzObFklNeWfKvLiQi&gclid=Cj0KCQjw5azABhD1ARIsAA0WFUHIGA9N6-1jR5hlPii0xIpi1kg6wV_Z429t5uf92hBfUUE4uo1rCkkaAg-LEALw_wcB&gclsrc=aw.ds">Visítanos</a>
+                            <a
+                                href="https://www.fnac.es/?origin=SEA_GOOG_SEA_BRAND&gad_source=1&gbraid=0AAAAAD8T49WYw8gxSzObFklNeWfKvLiQi&gclid=Cj0KCQjw5azABhD1ARIsAA0WFUHIGA9N6-1jR5hlPii0xIpi1kg6wV_Z429t5uf92hBfUUE4uo1rCkkaAg-LEALw_wcB&gclsrc=aw.ds">Visítanos</a>
                         </button>
                     </div>
 
@@ -274,7 +319,7 @@
 
 
 
-   
+
 
 </body>
 
