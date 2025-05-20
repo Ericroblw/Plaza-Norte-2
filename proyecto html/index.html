@@ -10,6 +10,10 @@
     <link rel="icon" href="Imagenes/logoPlaza.jpg">
 
     <style>
+        .bg-plaza-norte {
+            background-color: #003580 !important;
+        }
+
         .carousel img {
             width: 60%;
             aspect-ratio: 16/9;
@@ -30,22 +34,47 @@
 <body>
 
     <header class="text-center">
-        PLAZA NORTE 2
+        <nav class="navbar navbar-expand-md lg bg-plaza-norte navbar-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="Imagenes/logoPlaza.jpg" alt="" height="100"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"><b>INICIO</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tiendas.html"><b>TIENDAS</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="restaurantes.html"><b>RESTAURANTES</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ocio.html"><b>OCIO</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cine.html"><b>CINE</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="visitanos.html"><b>VISÍTANOS</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html"><b>CONTACTO</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aviso_legal.html"><b>AVISO LEGAL</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <article>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Inicio</a></li>
-                <li><a href="tiendas.html">Tiendas</a></li>
-                <li><a href="restaurantes.html">Restaurantes</a></li>
-                <li><a href="ocio.html">Ocio</a></li>
-                <li><a href="cine.html">Cine</a></li>
-                <li><a href="visitanos.html">Visítanos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="aviso_legal.html">Aviso legal</a></li>
 
-            </ul>
-        </nav>
         <h1>Bienvenido a Plaza Norte 2 <br>
             La mayor oferta comercial y de ocio del norte de Madrid</h1>
 
@@ -85,11 +114,7 @@
             </div>
         </div>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/YxEL-_egy8k?si=d5o1VUhhhAqDTUTO"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
+        <video src="Imagenes/videoplazanorte2.mp4"></video>
 
     </article>
 </body>
