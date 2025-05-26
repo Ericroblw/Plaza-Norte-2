@@ -1,0 +1,10 @@
+COSAS QUE HACER:
+
+- poner la introducción encima de las fotos del carrusel
+- centrar el video y ponerle los botones y todo eso
+- cambiar los botones que te llevan a la oficial y que se abran en   una pestaña nueva 
+- poner bien las fotos de los logos
+- poner logos en ocio y maquetar bien
+- maquetar cine, visitanos y contacto
+- boostrap 5 en aviso legal?
+- quitar json de tiendas y hacerlo de cine

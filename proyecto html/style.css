@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.bg-plaza-norte {
+    background-color: #003580 !important;
+}
+
+/* INDEX */
+.carousel img {
+    width: 60%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    width: 60%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    justify-self: center;
+
+}
+
+/* TIENDAS */
+
+/* RESTAURANTES */
+.col {
+    margin-bottom: 60px;
+}
+
+.container {
+    margin-left: 10%;
+}
+
+/* OCIO */
+/* CINE*/
+/* VISÍTANOS */
+/* CONTACTO */
+/* AVISO LEGAL */
+h2 {
+    justify-self: center;
+}
