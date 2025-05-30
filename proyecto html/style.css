@@ -4,22 +4,38 @@
 
 /* HEADER */
 .bg-plaza-norte {
-    background-color: #003580 !important;
+    background-color: #122942 !important;
 }
 
 /* INDEX */
+#index {
+    background-color: #122942;
+    padding-bottom: 100px;
+}
 .carousel img {
-    width: 60%;
+    width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover;
 }
+#titulo {
+    color: #122942;
+    text-shadow: 2px 2px 2px white;
+}
 
 .carousel-inner {
-    width: 60%;
+    width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover;
     justify-self: center;
+}
 
+video {
+    display: flex;
+    justify-self: center;
+    width: 50%;
+    margin-top: 100px;  
+    border: white 5px solid;
+    border-radius: 9px;
 }
 
 /* TIENDAS */
@@ -29,15 +45,28 @@
     margin-bottom: 60px;
 }
 
-.container {
-    margin-left: 10%;
-}
-
 /* OCIO */
 /* CINE*/
 /* VISÍTANOS */
+.text-plaza-norte {
+    color: #122942;
+}
 /* CONTACTO */
+.contacto {
+    background-color: rgb(214, 214, 214);
+    margin: 40px 0 40px 0;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+input {
+    height: 55px;
+}
 /* AVISO LEGAL */
-h2 {
-    justify-self: center;
+.accordion {
+    margin: 30px 30px 30px 30px;
+}
+/* FOOTER */
+.suscribirme {
+    height: auto;
 }

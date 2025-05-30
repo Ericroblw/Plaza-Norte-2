@@ -1,10 +1,12 @@
 COSAS QUE HACER:
 
-- poner la introducción encima de las fotos del carrusel
-- centrar el video y ponerle los botones y todo eso
-- cambiar los botones que te llevan a la oficial y que se abran en   una pestaña nueva 
+- poner la introducción encima de las fotos del carrusel HECHO
+- centrar el video y ponerle los botones y todo eso HECHO
+- cambiar los botones que te llevan a la oficial y que se abran en   una pestaña nueva HECHO
 - poner bien las fotos de los logos
 - poner logos en ocio y maquetar bien
-- maquetar cine, visitanos y contacto
-- boostrap 5 en aviso legal?
+- maquetar cine, visitanos (hecho) y contacto (hecho)
+- boostrap 5 en aviso legal HECHO
 - quitar json de tiendas y hacerlo de cine
+- footer HECHO
+- plano del plaza norte 2
