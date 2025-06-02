@@ -62,7 +62,7 @@ video {
   height: 100%;
 }
 
-/* CINE*/
+
 /* VISÍTANOS */
 .text-plaza-norte {
     color: #122942;
@@ -88,14 +88,14 @@ input {
 }
 /*CINE*/
 
-  .card-container {
+  #cartelera {
       display: flex;
       flex-wrap: wrap;
       gap: 1.5rem;
       justify-content: center;
     }
 
-    .card {
+    #imagenPeli {
       background: white;
       border-radius: 12px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -104,27 +104,27 @@ input {
       transition: transform 0.3s;
     }
 
-    .card:hover {
+    #imagenPeli:hover {
       transform: scale(1.03);
     }
 
-    .card img {
+    #imagenPeli img {
       width: 100%;
       height: 180px;
       object-fit: cover;
     }
 
-    .card-content {
+    #nombre {
       padding: 1rem;
     }
 
-    .card h3 {
+    #imagenPeli h3 {
       margin-top: 0;
       font-size: 1.2rem;
       color: #222;
     }
 
-    .card p {
+    #imagenPeli p {
       margin: 0.5rem 0;
       font-size: 0.95rem;
     }
