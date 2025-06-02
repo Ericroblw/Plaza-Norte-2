@@ -1,0 +1,34 @@
+{
+  "cartelera": [
+    {
+      "nombre": "Sinners",
+      "director": "David Romero",
+      "sinopsis": "Un grupo de desconocidos despierta en una iglesia abandonada, obligados a confesar sus pecados más oscuros para sobrevivir a un juego mortal."
+    },
+    {
+      "nombre": "Until Dawn",
+      "director": "Lisa Navarro",
+      "sinopsis": "Un grupo de amigos queda atrapado en una cabaña aislada donde antiguas leyendas cobran vida. Las decisiones marcarán quién sobrevive... hasta el amanecer."
+    },
+    {
+      "nombre": "Una Película de Minecraft",
+      "director": "Carlos Ortega",
+      "sinopsis": "Alex y Steve deben unir fuerzas para salvar su mundo cúbico de una amenaza que amenaza con borrar toda su historia... ¡bloque por bloque!"
+    },
+    {
+      "nombre": "Cónclave",
+      "director": "Elena Suárez",
+      "sinopsis": "Tras la misteriosa muerte del Papa, los cardenales se enfrentan en una batalla de poder y secretos mientras el mundo observa el cónclave más tenso de la historia."
+    },
+    {
+      "nombre": "Destino Final: Lazos de Sangre",
+      "director": "Manuel Rivas",
+      "sinopsis": "Un grupo de primos escapa de un accidente mortal, pero pronto descubren que el destino no olvida... ni perdona. Las muertes empiezan uno a uno."
+    },
+    {
+      "nombre": "Noche de Caza",
+      "director": "Claudia Méndez",
+      "sinopsis": "Una detective se enfrenta a un asesino en serie que deja pistas inspiradas en cuentos infantiles. Cada minuto cuenta antes de que caiga la próxima víctima."
+    }
+  ]
+}
