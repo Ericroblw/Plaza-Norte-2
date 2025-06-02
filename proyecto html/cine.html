@@ -110,9 +110,9 @@
 
             cartelera.forEach(pelicula => {
                 contenedor.innerHTML += `
-    <div class="card">
+    <div class="card" id="imagenPeli">
       <img src="img/${pelicula.imagen}" alt="${pelicula.nombre}">
-      <div class="card-content">
+      <div class="card-content" id="nombre">
         <h3>${pelicula.nombre}</h3>
         <p><strong>Director:</strong> ${pelicula.director}</p>
         <p>${pelicula.sinopsis}</p>
