@@ -56,68 +56,81 @@
     </header>
 
     <article>
-        <section>
-            <h1>Sinners</h1>
-            <img src="Imagenes/sinners-2025.jpg" alt="Sinners">
-            <h2>Horario</h2>
-            <nav class="horario1">
-                <ul>
-                    <li>12:45</li>
-                    <li>14:30</li>
-                    <li>17:15</li>
-                    <li>18:30</li>
-                    <li>19:45</li>
-                    <li>21:00</li>
-                    <li>23:00</li>
-                </ul>
-            </nav>
+        <h1 style="text-align:center;"> Cine Yelmo</h1>
+        <div id="cartelera" class="card-container"></div>
 
-            <h1>Until Dawn</h1>
-            <img src="Imagenes/untilDawn.jpg" alt="">
-            <h2>Horario</h2>
+        <script>
+            const cartelera = [
+                {
+                    nombre: "Sinners",
+                    director: "David Romero",
+                    sinopsis: "Un grupo de desconocidos despierta en una iglesia abandonada, obligados a confesar sus pecados más oscuros para sobrevivir a un juego mortal.",
+                    imagen: "sinners.jpg",
+                    horarios: ["16:00", "18:30", "21:00"]
+                },
+                {
+                    nombre: "Until Dawn",
+                    director: "Lisa Navarro",
+                    sinopsis: "Un grupo de amigos queda atrapado en una cabaña aislada donde antiguas leyendas cobran vida. Las decisiones marcarán quién sobrevive... hasta el amanecer.",
+                    imagen: "untildawn.jpg",
+                    horarios: ["15:00", "17:45", "20:15"]
+                },
+                {
+                    nombre: "Una Película de Minecraft",
+                    director: "Carlos Ortega",
+                    sinopsis: "Alex y Steve deben unir fuerzas para salvar su mundo cúbico de una amenaza que amenaza con borrar toda su historia... ¡bloque por bloque!",
+                    imagen: "minecraft.jpg",
+                    horarios: ["12:00", "14:30", "17:00"]
+                },
+                {
+                    nombre: "Cónclave",
+                    director: "Elena Suárez",
+                    sinopsis: "Tras la misteriosa muerte del Papa, los cardenales se enfrentan en una batalla de poder y secretos mientras el mundo observa el cónclave más tenso de la historia.",
+                    imagen: "conclave.jpg",
+                    horarios: ["16:15", "19:00", "21:30"]
+                },
+                {
+                    nombre: "Destino Final: Lazos de Sangre",
+                    director: "Manuel Rivas",
+                    sinopsis: "Un grupo de primos escapa de un accidente mortal, pero pronto descubren que el destino no olvida... ni perdona. Las muertes empiezan uno a uno.",
+                    imagen: "destinofinal.jpg",
+                    horarios: ["13:00", "15:45", "18:15"]
+                },
+                {
+                    nombre: "Noche de Caza",
+                    director: "Claudia Méndez",
+                    sinopsis: "Una detective se enfrenta a un asesino en serie que deja pistas inspiradas en cuentos infantiles. Cada minuto cuenta antes de que caiga la próxima víctima.",
+                    imagen: "nochedecaza.jpg",
+                    horarios: ["17:30", "20:00", "22:30"]
+                }
+            ];
 
-            <nav class="horario1">
-                <ul>
-                    <li>12:45</li>
-                    <li>14:30</li>
-                    <li>17:15</li>
-                    <li>18:30</li>
-                    <li>19:45</li>
-                    <li>21:00</li>
-                    <li>23:00</li>
-                </ul>
-            </nav>
+            // Mostrar las películas
+            const contenedor = document.getElementById("cartelera");
 
-            <h1>Una película de Minecraft</h1>
-            <img src="Imagenes/PeliculaMinecraft" alt="Minecraft">
-            <h2>Horario</h2>
-
-            <nav class="horario1">
-                <ul>
-                    <li>12:45</li>
-                    <li>14:30</li>
-                    <li>17:15</li>
-                    <li>18:30</li>
-                    <li>19:45</li>
-                    <li>21:00</li>
-                    <li>23:00</li>
-                </ul>
-            </nav>
-            <h1>Cónclave</h1>
-            <img src="Imagenes/conclave.jpg" alt="">
-            <h2>Horario</h2>
-            <nav class="horario1">
-                <ul>
-                    <li>12:45</li>
-                    <li>14:30</li>
-                    <li>17:15</li>
-                    <li>18:30</li>
-                    <li>19:45</li>
-                    <li>21:00</li>
-                    <li>23:00</li>
-                </ul>
-            </nav>
-        </section>
+            cartelera.forEach(pelicula => {
+                contenedor.innerHTML += `
+    <div class="card">
+      <img src="img/${pelicula.imagen}" alt="${pelicula.nombre}">
+      <div class="card-content">
+        <h3>${pelicula.nombre}</h3>
+        <p><strong>Director:</strong> ${pelicula.director}</p>
+        <p>${pelicula.sinopsis}</p>
+        <div class="horarios">
+          <strong>Horarios:</strong><br>
+          ${pelicula.horarios.map(hora => `<span>${hora}</span>`).join(' ')}
+        </div>
+        <br>
+        <a href="https://www.yelmocines.es/cartelera/madrid/plaza-norte-2" target="_blank">
+          <button style="margin-top:10px; padding: 8px 16px; background-color:blue; color:white; border:none; border-radius:5px; cursor:pointer;">
+            Comprar Entradas
+          </button>
+        </a>
+      </div>
+    </div>
+  `;
+            });
+        </script>
     </article>
 
 
@@ -146,10 +159,21 @@
                 <!-- Redes sociales -->
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                     <h5 class="text-uppercase fw-bold">Síguenos</h5>
+<<<<<<< HEAD
                     <a href="https://www.instagram.com/ccplazanorte2/" class="text-white me-3"><i class="bi bi-instagram fs-4"></i></a>
                     <a href="https://www.youtube.com/channel/UC64N3tj6EfsPQ41eolvbHbQ" class="text-white me-3"><i class="bi bi-youtube fs-4"></i></a>
                     <a href="https://www.tiktok.com/@ccplazanorte2" class="text-white me-3"><i class="bi bi-tiktok fs-4"></i></a>
                     <a href="https://es-es.facebook.com/CCPlazaNorte2" class="text-white me-3"><i class="bi bi-facebook fs-4"></i></a>
+=======
+                    <a href="https://www.instagram.com/ccplazanorte2/" class="text-white me-3" target="_blank"><i
+                            class="bi bi-instagram fs-4"></i></a>
+                    <a href="https://www.youtube.com/channel/UC64N3tj6EfsPQ41eolvbHbQ" class="text-white me-3"
+                        target="_blank"><i class="bi bi-youtube fs-4"></i></a>
+                    <a href="https://www.tiktok.com/@ccplazanorte2" class="text-white me-3" target="_blank"><i
+                            class="bi bi-tiktok fs-4"></i></a>
+                    <a href="https://es-es.facebook.com/CCPlazaNorte2" class="text-white me-3" target="_blank"><i
+                            class="bi bi-facebook fs-4"></i></a>
+>>>>>>> origin/main
                 </div>
 
                 <!-- Newsletter -->
